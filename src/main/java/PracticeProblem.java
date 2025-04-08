@@ -8,7 +8,7 @@ public class PracticeProblem {
 
 	public static String readFile(String nameOfFile){
 		FileReader inputStream = null;
-			String result = "";
+			String results = "";
 				try{
 			inputStream = new FileReader(nameOfFile);
 			int x;
@@ -34,7 +34,7 @@ public class PracticeProblem {
 
 	public static String backwardsReadFile(String nameOfFile){
 		FileReader inputStream = null;
-		String result = "";
+		String results = "";
 		try{
 		inputStream = new FileReader(nameOfFile);
 		int x;
