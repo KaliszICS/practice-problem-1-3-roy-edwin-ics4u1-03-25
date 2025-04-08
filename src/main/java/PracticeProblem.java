@@ -39,7 +39,7 @@ public class PracticeProblem {
 		inputStream = new FileReader(nameOfFile);
 		int x;
 		while((x = inputStream.read()) != -1){
-	results = (char)(x) + result;
+	results = (char)(x) + results;
 			}
 		}
 		catch(IOException e){
